@@ -1,0 +1,62 @@
+<!--<ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" id="AI"></a>na</li>
+                            <li><a class="dropdown-item" href="#" id="App web"></a></li>
+                            <li><a class="dropdown-item" href="#" id="App móvil"></a></li>
+                            <li><a class="dropdown-item" href="#" id="App hibrida"></a></li>
+                            <li><a class="dropdown-item" href="#" id="Pagina web"></a></li>
+                            <li><a class="dropdown-item" href="#" id="App de escritorio"></a></li>
+                            <li><a class="dropdown-item" href="#" id="Programación de hardware"></a></li>
+                            <li><a class="dropdown-item" href="#" id="Ciencia de datos(Big data) "></a></li>
+                            
+                        </ul>-->
+
+
+                         He tenido la oportunidad de trabajar en proyectos para instituciones educativas, empresas y proyectos personales, lo que me ha permitido desarrollar habilidades en la gestión de proyectos y en el trabajo en equipo.
+
+Soy competente en el desarrollo tanto en el frontend como en el backend, utilizando frameworks como React, Angular, Node.js, Spring Boot y Django. También tengo experiencia en el uso de Docker para la creación y gestión de entornos de desarrollo y despliegue de aplicaciones.
+
+Además, he explorado el campo del diseño gráfico y tengo conocimientos básicos en el análisis de frecuencias de sonido. Estoy emocionado por seguir aprendiendo y creciendo en estas áreas.
+
+Como recién egresado, estoy ansioso por seguir adquiriendo experiencia y contribuir al mundo del desarrollo de software con humildad y dedicación.
+
+
+
+Mi nombre es Jhonny Cueva, un recién egresado en el campo del desarrollo de software. Durante mi formación académica, he acumulado un total de 3860 horas de estudio y he tenido la oportunidad de trabajar en proyectos prácticos durante 400 horas. Estas experiencias me han permitido adquirir conocimientos en áreas como inteligencia artificial, lenguajes de programación modernos como Python y JavaScript, así como en Big Data utilizando tecnologías como Hadoop y Spark.
+
+Además de mi formación técnica, también tengo habilidades en diseño de interfaces gráficas y experiencia de usuario.
+
+Estaba en script buscar
+window.addEventListener('DOMContentLoaded', event => {
+
+    // Activate Bootstrap scrollspy on the main nav element
+    const mainNav = document.body.querySelector('#mainNav');
+    if (mainNav) {
+        new bootstrap.ScrollSpy(document.body, {
+            target: '#mainNav',
+            offset: 74,
+        });
+    };
+
+    // Collapse responsive navbar when toggler is visible
+    const navbarToggler = document.body.querySelector('.navbar-toggler');
+    const responsiveNavItems = [].slice.call(
+        document.querySelectorAll('#navbarResponsive .nav-link')
+    );
+    responsiveNavItems.map(function (responsiveNavItem) {
+        responsiveNavItem.addEventListener('click', () => {
+            if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                navbarToggler.click();
+            }
+        });
+    });
+
+});
+
+
+esto estaba para proyecj
+ const projectText = document.getElementById("project");
+    const projectDropdown = document.querySelector(".dropdown-menu");
+
+    projectDropdown.addEventListener("click", () => {
+        projectText.style.color = "green";
+    });

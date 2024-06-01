@@ -1,0 +1,38 @@
+.gallery {
+    text-align: center;
+  }
+
+  .gallery img {
+    margin-top: 6%;
+    max-width: 80%;
+    max-height: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+
+  .controls {
+    margin-left: 40%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+  }
+
+  .controls button {
+    background-color: #111111;
+    color: #00ff40;
+    border: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+
+  .controls button:hover {
+    background-color: #000000;
+    border-color: #2afa00;
+    border-width: 3px;
+  }

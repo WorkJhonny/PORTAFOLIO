@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Jhonny Cueva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/perfil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-************" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark-bg">
+            <div class="container-fluid navbar-dark-bg ">
+                <a class="navbar-brand" href="../index.html" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html" id="inicio"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../layout/habilidades.html" id="Skills"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../layout/competencias.html" id="Competition"></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="project"></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../layout/education.html" id="Education"></a></li>
+                                <li><a class="dropdown-item" href="../layout/business.html" id="Business"></a></li>
+                                <li><a class="dropdown-item" href="../layout/tech.html" id="Tech"></a></li>
+                                <li><a class="dropdown-item" href="../layout/certificaciones.html" id="Certificado"></a></li>
+                                <li><a class="dropdown-item" href="../layout/person.html" id="Person"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" id="searchInput">
+                        <button class="btn btn-outline-success" type="submit" onclick="search(document.getElementById('search').value)">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </header>
+
+    <script src="../componentes/index.js"></script>
+
+    <header class="masthead">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <h1 class="display-1 lh-1 mb-3">Habilidades.</h1>
+                        <p class="lead fw-normal text-muted mb-5" id="p">
+                            <h2><i class="fas fa-code"></i> Lenguajes de Programación</h2>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Python</li>
+                                <li><i class="fas fa-angle-right"></i> JavaScript</li>
+                                <li><i class="fas fa-angle-right"></i> Java</li>
+                                <li><i class="fas fa-angle-right"></i> C++</li>
+                                <li><i class="fas fa-angle-right"></i> C#</li>
+                                <li><i class="fas fa-angle-right"></i> Ruby</li>
+                                <li><i class="fas fa-angle-right"></i> PHP</li>
+                            </ul>
+
+                            <h2><i class="fas fa-database"></i> Bases de Datos</h2>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> SQL</li>
+                                <li><i class="fas fa-angle-right"></i> MySQL</li>
+                                <li><i class="fas fa-angle-right"></i> PostgreSQL</li>
+                                <li><i class="fas fa-angle-right"></i> MongoDB</li>
+                                <li><i class="fas fa-angle-right"></i> Oracle</li>
+                            </ul>
+
+                            <h2><i class="fas fa-layer-group"></i> Frameworks y Bibliotecas</h2>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> React</li>
+                                <li><i class="fas fa-angle-right"></i> Angular</li>
+                                <li><i class="fas fa-angle-right"></i> Vue.js</li>
+                                <li><i class="fas fa-angle-right"></i> Node.js</li>
+                                <li><i class="fas fa-angle-right"></i> Django</li>
+                                <li><i class="fas fa-angle-right"></i> Ruby on Rails</li>
+                                <li><i class="fas fa-angle-right"></i> Spring</li>
+                            </ul>
+
+                            <h2><i class="fas fa-project-diagram"></i> Metodologías de Desarrollo</h2>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Agile</li>
+                                <li><i class="fas fa-angle-right"></i> Scrum</li>
+                                <li><i class="fas fa-angle-right"></i> Kanban</li>
+                                <li><i class="fas fa-angle-right"></i> Waterfall</li>
+                            </ul>
+
+                            <h2><i class="fas fa-code-branch"></i> Herramientas de Control de Versiones</h2>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Git</li>
+                                <li><i class="fas fa-angle-right"></i> GitHub</li>
+                                <li><i class="fas fa-angle-right"></i> Bitbucket</li>
+                                <li><i class="fas fa-angle-right"></i> GitLab</li>
+                            </ul>
+                            
+                            <h2><i class="fas fa-file-alt"></i> Documentación y Pruebas</h2>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Redacción de documentación técnica</li>
+                                <li><i class="fas fa-angle-right"></i> Pruebas unitarias</li>
+                                <li><i class="fas fa-angle-right"></i> Pruebas de integración</li>
+                                <li><i class="fas fa-angle-right"></i> Pruebas de aceptación</li>
+                            </ul>
+                            
+                            <h2><i class="fas fa-users"></i> Habilidades Blandas</h2>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Trabajo en equipo</li>
+                                <li><i class="fas fa-angle-right"></i> Comunicación efectiva</li>
+                                <li><i class="fas fa-angle-right"></i> Resolución de problemas</li>
+                                <li><i class="fas fa-angle-right"></i> Pensamiento crítico</li>
+                                <li><i class="fas fa-angle-right"></i> Gestión del tiempo</li>
+                            </ul>
+                            </p>
+                            </div>
+                            </div>  
+                                    <div class="col-lg-6">
+                                        <div class="video-container">
+                                            <h3>Lenguaje de Programación</h3>
+                                            <iframe width="560"  src="../assets/l.jpg" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-container">
+                                            <h3>Base de datos</h3>
+                                            <iframe width="560" src="../assets/B.jpg" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-container">
+                                            <h3>Frameworks</h3>
+                                            <iframe width="560"  src="../assets/Frame.png" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-container">
+                                            <h3>Metodologías ágiles</h3>
+                                            <iframe width="560"  src="../assets/Agile.png" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-container">
+                                            <h3>Control de versiones</h3>
+                                            <iframe width="560"  src="../assets/ctrl.jpeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-container">
+                                            <h3>Pruebas unitarias</h3>
+                                            <iframe width="560"  src="../assets/PU.png" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-container">
+                                            <h3>Habilidades blandas</h3>
+                                            <iframe width="560"  src="../assets/h.jpeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </header>
+                            </body>
+                            </html>

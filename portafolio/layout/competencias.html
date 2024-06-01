@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Jhonny Cueva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/perfil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-************" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark-bg">
+            <div class="container-fluid navbar-dark-bg ">
+                <a class="navbar-brand" href="../index.html" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html" id="inicio"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../layout/habilidades.html" id="Skills"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../layout/competencias.html" id="Competition"></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="project"></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../layout/education.html" id="Education"></a></li>
+                                <li><a class="dropdown-item" href="../layout/business.html" id="Business"></a></li>
+                                <li><a class="dropdown-item" href="../layout/tech.html" id="Tech"></a></li>
+                                <li><a class="dropdown-item" href="../layout/certificaciones.html" id="Certificado"></a></li>
+                                <li><a class="dropdown-item" href="../layout/person.html" id="Person"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" id="searchInput">
+                        <button class="btn btn-outline-success" type="submit" onclick="search(document.getElementById('search').value)">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </header>
+
+    <script src="../componentes/index.js"></script>
+
+    <header class="masthead">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <h1 class="display-1 lh-1 mb-3">Competencias.</h1>
+                        <p class="lead fw-normal text-muted mb-5" id="p">
+                            <h2><i class="fas fa-check-circle"></i> Competencias</h2>
+                            <h3><i class="fas fa-code"></i> Desarrollo de Software</h3>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Análisis y diseño de sistemas</li>
+                                <li><i class="fas fa-angle-right"></i> Desarrollo de aplicaciones web y móviles</li>
+                                <li><i class="fas fa-angle-right"></i> Programación orientada a objetos</li>
+                                <li><i class="fas fa-angle-right"></i> Arquitectura de software</li>
+                                <li><i class="fas fa-angle-right"></i> Integración de sistemas</li>
+                            </ul>
+    
+                            <h3><i class="fas fa-cogs"></i> Ingeniería de Software</h3>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Gestión de proyectos</li>
+                                <li><i class="fas fa-angle-right"></i> Pruebas de software</li>
+                                <li><i class="fas fa-angle-right"></i> Control de calidad</li>
+                                <li><i class="fas fa-angle-right"></i> Mantenimiento y soporte de software</li>
+                                <li><i class="fas fa-angle-right"></i> Desarrollo ágil</li>
+                            </ul>
+    
+                            <h3><i class="fas fa-cloud"></i> Tecnologías de la Nube</h3>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Despliegue de aplicaciones en la nube</li>
+                                <li><i class="fas fa-angle-right"></i> Servicios de computación en la nube</li>
+                                <li><i class="fas fa-angle-right"></i> Arquitecturas de nube</li>
+                                <li><i class="fas fa-angle-right"></i> Monitoreo y escalabilidad</li>
+                                <li><i class="fas fa-angle-right"></i> Seguridad en la nube</li>
+                            </ul>
+    
+                            <h3><i class="fas fa-chart-line"></i> Análisis de Datos</h3>
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Minería de datos</li>
+                                <li><i class="fas fa-angle-right"></i> Procesamiento de big data</li>
+                                <li><i class="fas fa-angle-right"></i> Visualización de datos</li>
+                                <li><i class="fas fa-angle-right"></i> Inteligencia de negocios</li>
+                                <li><i class="fas fa-angle-right"></i> Aprendizaje automático</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="video-container">
+                        <h3>Desarrollo de Software</h3>
+                        <iframe width="560"  src="../assets/DS.jpeg"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container">
+                        <h3>Ingeniería de Software</h3>
+                        <iframe width="560" src="../assets/ig.jpg"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container">
+                        <h3>Tecnologías de la Nube</h3>
+                        <iframe width="560"  src="../assets/IBM.jpeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container">
+                        <h3>Análisis de Datos</h3>
+                        <iframe width="560"  src="../assets/A.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+                            </p>
+                            </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="masthead-device-mockup">
+                                    
+                                <!--here code-->
+                                    
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </header>
+                            </body>
+                            </html>
